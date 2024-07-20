@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2320045676385293527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2320045676385293529}
+  - component: {fileID: 2320045676385293528}
+  m_Layer: 0
+  m_Name: RoomTemplates
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2320045676385293529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2320045676385293527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2320045676385293528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2320045676385293527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47b56f4cb30e9d479950d195b154820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottomRooms:
+  - {fileID: 3466135767940609424, guid: 2600df6807d7a2448b8a2f942ba8db47, type: 3}
+  - {fileID: 8045790870251003770, guid: 0dbe5b22ac1e21a478e34f3c287cd0e9, type: 3}
+  - {fileID: 1365510300560249157, guid: 4ed4e401e9c984c4b9bf478570b4fe2b, type: 3}
+  - {fileID: 6000413375293047536, guid: 773fb54724ff0104ca9c19bb3d52434e, type: 3}
+  topRooms:
+  - {fileID: 5961877798262422819, guid: 8e7bb66227d9add46a544d84811016c7, type: 3}
+  - {fileID: 6000413375293047536, guid: 773fb54724ff0104ca9c19bb3d52434e, type: 3}
+  - {fileID: 6805386840722252068, guid: 5fde663e05000b149b44a02a46b15fd9, type: 3}
+  - {fileID: 5119478008594637846, guid: 9e496ae055af1c143a75d6601e3f4710, type: 3}
+  leftRooms:
+  - {fileID: 9053310198787266958, guid: aaa31f85b457a4b4babdbb64d3d39025, type: 3}
+  - {fileID: 8045790870251003770, guid: 0dbe5b22ac1e21a478e34f3c287cd0e9, type: 3}
+  - {fileID: 5737935847071768216, guid: 8e1fb8af61ffd5f40b71db3651129537, type: 3}
+  - {fileID: 6805386840722252068, guid: 5fde663e05000b149b44a02a46b15fd9, type: 3}
+  rightRooms:
+  - {fileID: 98027726223297655, guid: 214218b5a0a5f1546a057d49bdae8e04, type: 3}
+  - {fileID: 1365510300560249157, guid: 4ed4e401e9c984c4b9bf478570b4fe2b, type: 3}
+  - {fileID: 5737935847071768216, guid: 8e1fb8af61ffd5f40b71db3651129537, type: 3}
+  - {fileID: 5119478008594637846, guid: 9e496ae055af1c143a75d6601e3f4710, type: 3}
+  bossRooms:
+  - {fileID: 9079765356502626728, guid: 08425e23a2457f84db90fc256eb8c36c, type: 3}
+  - {fileID: 4938895155958221575, guid: 994ae53880c87504a94bf4d332a5684d, type: 3}
+  - {fileID: 1281252237471784424, guid: 55ce1e40677dab143bb015b9efaab549, type: 3}
+  - {fileID: 7352788953237603606, guid: 26ed45de089aed14f938f6eb02a8097b, type: 3}
+  - {fileID: 7232555970558412280, guid: b1ccfa31864f67f4081d405c8f65cd50, type: 3}
+  spawnedRooms:
+  - {fileID: 0}
+  maxRooms: 0
+  waitTime: 2
+  elevator: {fileID: 561639295513040246, guid: f8efe3f5a4b0d174985c64b3475766ab, type: 3}
+  floorPresets: []
+  presets1:
+  - {fileID: 2411431691179504841, guid: 242b0c56fe75d9f48b07eb1f19204fad, type: 3}
+  - {fileID: 3465162642664885638, guid: 786b2597ff2d0fd4187165006c4eb6fe, type: 3}
+  - {fileID: 5083659905613460981, guid: abac59b169fa6b748955379db22bb763, type: 3}
+  - {fileID: 3217573717804912026, guid: 42b4bed1ca4dd854dbb9ddae9ee7ce66, type: 3}
+  presets2:
+  - {fileID: 5083659905613460981, guid: abac59b169fa6b748955379db22bb763, type: 3}
+  - {fileID: 3217573717804912026, guid: 42b4bed1ca4dd854dbb9ddae9ee7ce66, type: 3}
+  presets3:
+  - {fileID: 1183840454942052399, guid: 073be44b147452a4a9009c9ecbfd8b20, type: 3}
+  - {fileID: 644077572419935476, guid: 00c26c6e9aa9ffa41b6d96dadc068c88, type: 3}
+  presets4:
+  - {fileID: 1480243250814610566, guid: 4afe2457c3af4dd4bb2b3e343fa132a9, type: 3}
+  - {fileID: 8017994959641420630, guid: f5d31bbbbd6371149b8a93d7fdfbd32b, type: 3}
+  presets5:
+  - {fileID: 3916336533147609972, guid: 0494f54264c042d4a8c6f6009ed1acdc, type: 3}
+  - {fileID: 1521864982927502315, guid: 8da173f74bce12d4ba0ae488030b14e9, type: 3}
+  doors:
+  - {fileID: 4645005330142573660, guid: 5b768f11c2f34ab47819810404a43bee, type: 3}
+  - {fileID: 5859717299167903809, guid: 11b7d01e3d505ef42bcbf926295e616a, type: 3}
+  - {fileID: 1295012748321793299, guid: 2f03910c618c2d74692291fc9337cb02, type: 3}
+  - {fileID: 9124161707722058323, guid: 2fc3856a9678eee44b6d70b878950b8e, type: 3}
+  bossBar: {fileID: 1270702228819569171, guid: 26116fe303fb7fa45a33c5c144a1df2e, type: 3}
+  bossBarGroup: {fileID: 0}
